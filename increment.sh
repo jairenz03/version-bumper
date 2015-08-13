@@ -38,7 +38,7 @@ case "$2" in
 esac
 
 if [[ $1 == "-t" ]] &&  [[ $PATCH == "0" ]]; then
-        BUMPEDVERSION=$MAJOR.$MINOR
+    BUMPEDVERSION=$MAJOR.$MINOR
 else
     BUMPEDVERSION=$MAJOR.$MINOR.$PATCH
 fi
